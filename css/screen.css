@@ -88,3 +88,16 @@ strong {
 .imgBNDLogo img:hover {
   transform: scale(1.05);
 }
+
+/* Image size styling */
+.imgBNDGroup img {
+  max-width: 80%;
+  margin-top: 0.5%;
+  padding-top: 0.25%;
+}
+
+.imgBNDLogo img {
+  max-width: 70%;
+  margin-top: 0.5%;
+  padding-top: 0.50%;
+}
