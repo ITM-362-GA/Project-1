@@ -101,3 +101,14 @@ strong {
   margin-top: 0.5%;
   padding-top: 0.50%;
 }
+
+/* Some Input Styles */
+input {
+  width: 97%;
+  padding: 12px 20px;
+  margin: 8px 1.5%;
+  border-radius: 6px;
+  background-color: #D1C4E9;
+  color: #333333;
+  box-sizing: border-box;
+}
