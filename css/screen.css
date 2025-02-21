@@ -198,3 +198,22 @@ input[type=submit]:hover {
     line-height: 2.074em;
   }
 }
+
+/* Media queries for screens that have a minimum width of 768px. */
+@media screen and (min-width: 768px) {
+  #container {
+    width: 45%;
+    float: right;
+    margin-right: 3%;
+  }
+
+  .info {
+    width: 45%;
+    float: left;
+    margin-left: 3%;
+  }
+
+  .font-size {
+    font-size: 1em;
+  }
+}
