@@ -145,3 +145,56 @@ input[type=submit]:hover {
 .fontsize {
   font-size: 1em;
 }
+
+/* Media queries for screens that have a minimum width of 510px. */
+@media screen and (min-width: 510px) {
+  #container {
+    text-align: center;
+    margin: 1% auto;
+    width: 65%;
+  }
+
+  .main {
+    margin: 0.694% auto;
+  }
+
+  .info {
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  .fontsize {
+    font-size: 1.2em;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  #submit {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.9em;
+  }
+
+  .main-text {
+    font-size: 1.2em;
+    line-height: 1.44em;
+    padding: 1.44em;
+  }
+
+  .formDiv {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 1.44em;
+  }
+
+  label {
+    font-size: 1.44em;
+  }
+
+  h1 {
+    font-size: 1.728em;
+    line-height: 2.074em;
+  }
+}
