@@ -82,3 +82,9 @@ strong {
   border-radius: 25px;
   transition: transform 0.3s ease;
 }
+
+/* Adding in a hover effect for the images */
+.imgBNDGroup img:hover,
+.imgBNDLogo img:hover {
+  transform: scale(1.05);
+}
