@@ -15,3 +15,28 @@ body {
   background-color: rgba(255, 105, 180, 0.8); /* Soft pink. */
   border-radius: 8px;
 }
+
+/* The font styles for my mailing list. */
+h1 {
+  font-family: 'Roboto', serif;
+  font-size: 1.44em;
+  line-height: 1.728em;
+  font-weight: 600;
+  color: #FD76DA;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #333333;
+}
+
+label, input {
+  font-family: 'Quicksand', sans-serif;
+  color: #333333;
+}
+
+input[type=submit] {
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+}
