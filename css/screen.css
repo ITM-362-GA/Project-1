@@ -40,3 +40,34 @@ input[type=submit] {
   font-family: 'Poppins', sans-serif;
   font-style: italic;
 }
+
+/* Adding in form styles. */
+.formDiv {
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.2em;
+  padding: 1.2em;
+}
+
+label {
+  display: block;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0 1.5%;
+  width: 97%;
+  font-weight: 300;
+  color: #5E88B2;
+}
+
+.main-text {
+  padding: 3% 1.2em;
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #333333;
+}
+
+strong {
+  font-weight: 900;
+  color: #8b06bf;
+}
