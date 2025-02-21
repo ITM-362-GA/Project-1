@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-color: ##EEEEEE;
+  background-color: #EEEEEE;
   font-family: 'Poppins', sans-serif;
   color: #333333;
 }
@@ -18,7 +18,7 @@ body {
 
 /* The font styles for my mailing list. */
 h1 {
-  font-family: 'Roboto', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.44em;
   line-height: 1.728em;
   font-weight: 600;
