@@ -135,3 +135,8 @@ input[type=submit] {
   cursor: pointer;
   border-radius: 6px;
 }
+
+/* Hover effect for submit button. */
+input[type=submit]:hover {
+  background-color: #FF6699;
+}
