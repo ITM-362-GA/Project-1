@@ -140,3 +140,8 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #FF6699;
 }
+
+/* A font size change. */
+.fontsize {
+  font-size: 1em;
+}
