@@ -71,3 +71,14 @@ strong {
   font-weight: 900;
   color: #8b06bf;
 }
+
+/* Adding some image styles. */
+.imgBNDGroup img,
+.imgBNDLogo img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  border-radius: 25px;
+  transition: transform 0.3s ease;
+}
