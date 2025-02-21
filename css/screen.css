@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Quicksand:wght@300;500&family=Roboto:wght@400;700&display=swap');
 
-/* Adding in the global settings */
+/* Adding in the global settings. */
 html {
   line-height: 1.2em;
 }
@@ -9,4 +9,9 @@ body {
   background-color: ##EEEEEE;
   font-family: 'Poppins', sans-serif;
   color: #333333;
+}
+
+.info {
+  background-color: rgba(255, 105, 180, 0.8); /* Soft pink. */
+  border-radius: 8px;
 }
