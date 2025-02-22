@@ -34,3 +34,14 @@ function checkForm() {
   // If there are any errors were found, prevent form submission.
   return formIsValid;
 }
+
+// The function that shows the error messages.
+function showError(fieldId, message) {
+  const field = document.getElementById(fieldId);
+  const errorMessage = document.createElement("div");
+  errorMessage.classList.add("error");
+  errorMessage.innerText = message;
+  
+  // Inserts the error message after the field.
+  field.parentElement.appendChild(errorMessage);
+}
