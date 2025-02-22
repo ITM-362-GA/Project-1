@@ -52,3 +52,10 @@ function clearErrors() {
   const errorMessages = document.querySelectorAll(".error");
   errorMessages.forEach(error => error.remove());
 }
+
+// The function to validate the email format.
+function validateEmail(email) {
+  // A regex for basic email validation.
+  const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+  return emailPattern.test(email);
+}
