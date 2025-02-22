@@ -45,3 +45,10 @@ function showError(fieldId, message) {
   // Inserts the error message after the field.
   field.parentElement.appendChild(errorMessage);
 }
+
+// The function to clear all error messages.
+function clearErrors() {
+  // Removes the existing error messages.
+  const errorMessages = document.querySelectorAll(".error");
+  errorMessages.forEach(error => error.remove());
+}
