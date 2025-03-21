@@ -59,11 +59,11 @@ label {
   color: #5E88B2;
 }
 
-.main-text {
-  padding: 3% 1.2em;
+.main-text p{
+  padding: 3% 1em;
   text-align: left;
   font-size: 1em;
-  line-height: 1.2em;
+  line-height: 1em;
   color: #333333;
 }
 
