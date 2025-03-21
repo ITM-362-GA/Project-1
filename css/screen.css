@@ -174,11 +174,11 @@ input[type=submit]:hover {
   #submit {
     display: block;
     margin: 0 auto;
-    font-size: 0.9em;
+    font-size: 0.6em;
   }
 
   .main-text {
-    font-size: 0.9em;
+    font-size: 1.2em;
     line-height: 1.44em;
     padding: 1.44em;
   }
@@ -213,6 +213,11 @@ input[type=submit]:hover {
     margin-left: 3%;
   }
 
+  #submit {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.9em;
+  }
   .font-size {
     font-size: 1em;
   }
