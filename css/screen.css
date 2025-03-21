@@ -174,7 +174,7 @@ input[type=submit]:hover {
   #submit {
     display: block;
     margin: 0 auto;
-    font-size: 0.3em;
+    font-size: 0.1em;
   }
 
   .main-text {
