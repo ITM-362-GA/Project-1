@@ -147,7 +147,7 @@ input[type=submit]:hover {
 }
 
 /* Media queries for screens that have a minimum width of 479px. */
-@media screen and (min-width: 479px) {
+@media screen and (min-width: 320px) {
   #container {
     text-align: center;
     margin: 1% auto;
