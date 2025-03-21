@@ -176,7 +176,12 @@ input[type=submit]:hover {
     margin: 0 auto;
     font-size: 0.3em;
   }
-
+@media screen and (orientation: landscape) {
+    #submit {
+      font-size: 1.2em;
+      padding: 1em 2em;
+    }
+  }
   .main-text {
     font-size: 1.2em;
     line-height: 1.44em;
