@@ -178,8 +178,7 @@ input[type=submit]:hover {
   }
 @media screen and (orientation: landscape) {
     #submit {
-      font-size: 1.2em;
-      padding: 1em 2em;
+      font-size: 0.9em
     }
   }
   .main-text {
