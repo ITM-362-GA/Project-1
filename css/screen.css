@@ -7,7 +7,7 @@ html {
 
 body {
   background-color: #EEEEEE;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   color: #333333;
 }
 
@@ -18,7 +18,7 @@ body {
 
 /* The font styles for my mailing list. */
 h1 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', Arial, sans-serif;
   font-size: 1.44em;
   line-height: 1.728em;
   font-weight: 600;
@@ -26,18 +26,18 @@ h1 {
 }
 
 p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', Arial, sans-serif;
   font-weight: 400;
   color: #333333;
 }
 
 label, input {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', Arial, sans-serif;
   color: #333333;
 }
 
 input[type=submit] {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', Arial, sans-serif;
   font-style: italic;
 }
 
